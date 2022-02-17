@@ -1,0 +1,349 @@
+/* type selectors */
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background: url("../images/bg1.jpg")no-repeat;
+	background-size: cover;
+	font-size: 100%;
+	width: 100%;                         /* changed from 990 pixels */
+	max-width: 1400px;                  /* maximum width of page */
+	margin: 15px auto;
+	padding: 15px 0;
+	
+}
+
+section, article, aside, h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+section, article, aside {
+	margin-bottom: 1em;
+}
+p {
+	font-size: .875em;                  /* 14 / 16 */
+	padding-bottom: .5em;
+	line-height: 130%;
+	color: aliceblue;
+}
+em {
+	font-weight: bold;
+}
+a{
+	color: blue !important;
+}
+.nav-link{
+	color: rgba(255, 132, 0, 0.913) !important;
+}
+figure{
+	width:90%;
+}
+figcaption{
+	color: blue;
+	position: absolute;
+
+}
+.pic{
+	padding-left: 3em;
+	vertical-align: middle;
+	margin-right: 2em;
+}
+
+/* the styles for the header */
+header {
+	width: 100%;     /* full width of body */
+	padding-bottom: 1em;
+	background-image: linear-gradient(45deg, black 25%, rgba(243, 158, 30, 0.945) 50%, rgba(241, 110, 39, 0.948) 99%); 
+}
+header h2 {
+	font-size: 3.10em;                  /* 36 / 16 */
+	color: black;
+	text-shadow: 2px 3px 0 black;
+	margin-left: 12.12121%;             /* 120 / 990 */
+	margin-bottom: .20em;
+}
+
+header img {
+	width: 6.0808%;                     /* 80 / 990 */
+	max-width: 150px;                    /* native size */
+	min-width: 40px;
+	float: left;
+	margin-left: 3.0202%; 
+	margin-top: 10px;              /* 20 / 990 */
+}
+header span{
+	color:  rgba(255, 132, 0, 0.913);
+}
+/*end header section*/
+/*nav styles*/
+.nav-item{
+	font-size: larger;
+	padding-left: 5.80em;
+  }
+/*end nav styles*/
+/*main content styles*/
+.sidebarA {
+	width: 24.0404%;
+	height: 350px;
+	float: left;
+	}
+.sidebarA ul{
+	color: aliceblue;
+}
+.sidebarA h1{
+	color: rgba(255, 132, 0, 0.913);
+}
+.sidebarB {
+	width:29.0404% ;
+	height: 350px;
+	float: right;
+	margin-bottom: 40em;
+	; 
+    color: aliceblue ;}
+
+
+/* the styles for the section */
+section {
+	width: 44.0404%;                         /* 535 / 990 */
+	float: left;
+	margin-left: 2.0202%;                    /* 20 / 990 */
+	padding: 1.5em 2.52525% 0 0;             /* 25 / 990 */
+
+}
+section ul {
+	margin-top: 0;
+	margin-bottom: 1.5em;
+}
+section li {
+	font-size: .875em;                       /* 14 / 16 */
+	padding-bottom: .35em;
+}
+section h1 {
+	font-size: 1.625em;                      /* 26 / 16 */
+	margin-bottom: .35em;
+	color: rgba(255, 132, 0, 0.913);
+}
+section h2 {
+	font-size: 1.25em;                       /* 20 / 16 */
+	margin-bottom: .35em;
+	color: rgba(255, 132, 0, 0.913);
+}
+section a{
+	text-decoration: underline;
+	color: white;
+}
+/*end section styles*/
+
+
+/* the styles for the article */
+article {
+	width: 54.0404%;                         /* 535 / 990 */
+	float: left;
+	margin-left: 2.0202%;                    /* 20 / 990 */
+	padding: 1.5em 2.52525% 0 0;             /* 25 / 990 */
+
+}
+article h1 {
+	font-size: 1.625em;                      /* 26 / 16 */
+	margin-bottom: .35em;
+}
+article img {
+	float: left;
+margin-right: 1em; } 
+	                 
+article p {
+	margin-bottom: .5em;
+}
+
+article ul li{
+	display: inline-block;
+}
+/* the styles for aside*/
+aside {
+	width: 35.35353%;                        /* 350 / 990 */
+	float: left;
+	padding: 2.0202%;                        /* 20 / 990 */
+
+	margin: 1.5em 2.0202% 0 0;               /* 20 / 990 */
+}
+article a{
+	color: blue !important;
+	text-decoration: underline;
+}
+article h1{
+	color: rgba(255, 132, 0, 0.913);
+}
+article h2{
+	color: rgba(255, 132, 0, 0.913);
+}
+aside h2 {
+	font-size: 1.25em;                       /* 20 / 16 */
+	padding-bottom: .5em;
+	text-align: center;
+	color: rgba(255, 132, 0, 0.913);
+}
+aside h3 {
+	font-size: 1em;                          /* base font size */
+	color: #931420;
+	padding-bottom: .5em;
+}
+aside p {
+	margin-bottom: .5em;
+}
+aside a{
+	color: blue !important;
+}
+aside ul {
+	margin-top: 0;
+	margin-bottom: 1.5em;
+	list-style: none;
+}
+aside li {
+	font-size: .875em;                       /* 14 / 16 */
+	padding-bottom: .35em;
+	color: aliceblue;
+	
+}
+aside a{
+	font-size: medium;
+}
+aside a:hover{
+font-size: large;
+}
+video{
+	width: 70%;
+	margin-right: 10em;
+}
+.video h2{
+	margin-right: 1em;
+}
+
+/*end aside styles*/
+/* the styles for the footer */
+
+footer {
+	clear: both;
+	width: 100%;                             /* full width of body */
+	border-top: 2px solid black;
+	padding:5px;
+	background-image: linear-gradient(45deg, black 30%, rgba(243, 158, 30, 0.945) 50%, rgba(241, 110, 39, 0.948) 99%); 
+}
+footer p {
+	font-size: .75em;                        /* 12 / 16 */
+	text-align: center;
+	margin-right: 2.0202%;                   /* 20 / 990 */
+}
+
+
+/* tablet portrait to standard 960 */
+@media only screen and (max-width: 959px) {
+
+section h1, article h1 {
+	font-size: 1.5em;                       /* 24 / 16 */
+}
+section h2, aside h2 {
+	font-size: 1.125em;                     /* 18 / 16 */
+}
+video{
+	width: 70%;
+	margin-left: 8em;
+}
+.video h2{
+	text-align: center;
+}
+img{
+	width: 100%;
+}
+}
+
+/* mobile landscape to tablet portrait */
+@media only screen and (max-width: 767px) {
+
+body {
+	width: 100%;                           /* full width of screen */
+	margin: 0;                             /* no margins */
+	border: none;                          /* no border */
+}
+header, footer p {
+	text-align: center;
+}
+footer p { margin-right: 0; }
+header h2 {
+	font-size: 1.625em;                    /* 26 / 16 */
+	margin: .4em 0 .25em 0;
+}
+header h3 {
+	font-size: 1em;                        /* base font size */
+	margin-left: 0;
+}
+header img {
+	float: none;
+}
+section, article {
+	width: 95.9596%;                       /* 100 - (2 * 2.0202) for padding */
+	float: none;
+	margin-right: 2.0202%;                 /* 20 / 990 */
+	padding-right: 0;
+}
+article img {
+	float: left;
+	width: 100%;
+	margin-right: 2%;
+}
+aside li img{
+	width: 20%;	
+}
+article h1,h2{
+	text-align: center;
+}
+aside {
+	
+	width: 91.9192%;                       /* 100 - (4 * 2.0202) for padding and margins */
+	float: none;
+	margin: 0 2.0202% 2.0202% 2.0202%;     /* 20 / 990 */
+}
+.sidebarA{
+	width: 50%;
+   margin-left:10em;
+   font-size: medium;
+}
+.sidebarA h1{
+	font-size: 1.5em;
+}
+.sidebarB{
+	width:96% ;
+}
+
+}
+
+/* mobile portrait to mobile landscape */
+@media only screen and (max-width: 479px) {
+
+header h2 {
+	font-size: 1.375em;                    /* 22 / 16 */
+}
+header h3 {
+	font-size: .8125em;                    /* 13 / 16 */
+}
+p {
+	font-size: .875em;                     /* 14 / 16 */
+}
+
+section h1, article h1, section h2, aside h2 {
+	font-size: 1em;                        /* base font size */
+}
+section li, aside li {
+	font-size: .875em;                     /* 14 / 16 */
+}
+article img {
+	float: none;
+	width: 100%;
+	margin-right: 0;
+}
+aside h3 {
+	font-size: .9375em;                     /* 15 / 16 */
+}
+footer p {
+	font-size: .6875em;                     /* 11 / 16 */
+}
+
+}
